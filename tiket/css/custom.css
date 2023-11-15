@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+  /* index php */
+
+  center {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .footer-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* tiket */
+@media only screen and (max-width: 430px) {
+.tiket-r{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+
+/* Gaya umum untuk semua layar */
+
